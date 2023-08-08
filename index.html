@@ -7,14 +7,55 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Nuestro</a></li>
-                <li><a href="#">Nosotros</a></li>
-            </ul>
-        </nav>
-    </header>
+        <main>
+            <header >
+                <h1 class="title">Preguntas semana 04</h1>
+            </header>
+            <section>
+                <div class="contenedor-question">
+                    <h2 class="question">Que es box model?</h2>
+                    <p class="answer">Es como una caja invisible que rodea y define las características de los elementos html.</p>
+                </div>
+                <div class="contenedor-question">
+                    <h2 class="question">Propiedades o capas de box model</h2>
+                    <p class="answer">las propiedades son el content-box, padding-box, border-box y margin-box. </p>
+                </div>
+                <div class="contenedor-question">
+                    <h2 class="question">Propiedad para que no afecte el ancho y alto definido.</h2>
+                    <p class="answer">box-sizing: border-box</p>
+                </div>
+                <div class="contenedor-question">
+                    <h2 class="question">Que es colapsado de margenes con ejemplo</h2>
+                    <p class="answer">
+                        El colapso de márgenes sucede cuando aplicas márgenes a dos elementos que están uno junto al otro en la misma dirección vertical.
+                        En lugar de acumularse, los márgenes se combinan, tomando el valor del margen más grande.
+                    </p>
+                    <div class="answer">
+                        <p><strong>Ejemplo:</strong> El elemento 1 tiene 10 píxeles de margen en la parte arriba y abajo, y el elemento 2 tiene 30 píxeles de margen arriba. El elemento 2 tiene un margen más grande, por lo tanto el espacio vertical entre los dos elementos es de 30 pixeles. </p>
+                        <div class="caja elemento1">Elemento 1</div>
+                        <div class="caja elemento2">Elemento 2</div>
+                    </div>
+                </div>
+                <div class="contenedor-question">
+                    <h2 class="question">Usar padding y margin sin shorthand y luego con shorthand.</h2>
+                    <div class="answer">
+                        <div class="parrafo1">
+                            <p>margin</p>
+                        </div>
+                        <div class="parrafo2">
+                            <p>padding</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedor-question">
+                    <h2 class="question">Aplicar margen negativo para mover elemento fuera de su posicion. </h2>
+                    <div class="contenedor-caja answer">
+                        <div class="caja caja1"></div>
+                        <div class="caja caja2"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    
 </body>
 </html>
