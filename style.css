@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
 html{
-    font-family: 'Poppins';
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 ul{
     background-color: lightcoral;
 }
 li{
     display: inline;
+    list-style: none;
 }
 
 a {
